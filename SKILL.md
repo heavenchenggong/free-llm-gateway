@@ -13,7 +13,7 @@ description: |
 description_zh: 一键搭建本地 LLM 网关，把智谱、SiliconFlow、OpenRouter、NVIDIA 等免费渠道聚合成一个 OpenAI 兼容端点，限流自动切换，客户端只配一个模型。
 description_en: One-shot local LiteLLM gateway aggregating free LLM providers (Zhipu, SiliconFlow, OpenRouter, NVIDIA NIM, Agnes, SenseNova, dots.ai) behind one OpenAI-compatible endpoint with automatic failover on rate limits.
 category: efficiency
-version: 1.0.0
+version: 1.0.1
 author: Heaven Gong
 agent_created: true
 ---
