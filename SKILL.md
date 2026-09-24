@@ -1,5 +1,7 @@
 ---
 name: free-llm-gateway
+display_name: 免费 LLM 网关
+display_name_en: Free LLM Gateway
 description: |
   在 macOS 上一键搭建本地 LiteLLM 网关，把多个免费 LLM API 渠道（智谱 BigModel、
   SiliconFlow、OpenRouter、NVIDIA NIM、Agnes AI、SenseNova、dots.ai 等）聚合为一个
@@ -8,7 +10,11 @@ description: |
   This skill should be used when 用户要求"免费模型自动切换""多免费渠道聚合""限流
   自动换渠道""本地 LLM 网关"，或需要安装/配置/排障 LiteLLM proxy、编写渠道配置、
   注册 launchd 常驻服务。
+description_zh: 一键搭建本地 LLM 网关，把智谱、SiliconFlow、OpenRouter、NVIDIA 等免费渠道聚合成一个 OpenAI 兼容端点，限流自动切换，客户端只配一个模型。
+description_en: One-shot local LiteLLM gateway aggregating free LLM providers (Zhipu, SiliconFlow, OpenRouter, NVIDIA NIM, Agnes, SenseNova, dots.ai) behind one OpenAI-compatible endpoint with automatic failover on rate limits.
+category: efficiency
 version: 1.0.0
+author: Heaven Gong
 agent_created: true
 ---
 
